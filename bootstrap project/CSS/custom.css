@@ -1,0 +1,279 @@
+a {
+    text-decoration: none;
+  }
+  .top-header a {
+    color: black;
+  }
+  #nav .nav-con {
+    font-size: 36px !important;
+    font-weight: 700;
+  }
+  #nav .nav-con span {
+    transform: rotateY(180deg);
+    color: red;
+  }
+  #nav .links a {
+    color:black;
+    font-weight: 500;
+  }
+  #nav .container a{
+    color: black;
+  }
+  #nav .links a:hover {
+    color: red;
+  }
+  #nav .d-flex {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  #nav .d-flex .btn {
+    background: white;
+    border:1px solid red;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 30px;
+    color: red;
+    transition: 1s all ease;
+  }
+
+.homepage{
+  background-color: black;
+  /* position: relative; */
+}
+.homepage .carousel .carousel-inner h5{
+    font-size: 66px;
+    line-height: 76px;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 10px 80px 20px;
+    text-shadow: rgb(0 0 0) 0px 0px 0px;
+    text-transform: capitalize;
+}
+.homepage .carousel .carousel-inner p{
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  opacity: 0.7;
+  letter-spacing: 1px;
+}
+.homepage .carousel .carousel-inner a{
+  background-color: red;
+  margin-bottom: 13.25rem;
+  border: none;
+}
+.homepage .carousel .carousel-inner .carousel-item img{
+  opacity: 0.6;
+}
+
+#services img{
+  border-radius: 10px;
+}
+#services h6{
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 28px;
+  color: var(--font-color);
+  position: relative;
+  opacity: 0.9;
+}
+#services h3{
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+#services .btn-style{
+  padding: 18px 36px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  background-color: red;
+}
+#cards{
+  background-color: rgb(128 128 128 / 6%);
+}
+#cards .grids1{
+  background-image: url("../images/card1.jpg");
+  background-color: black;
+  background-size: cover;
+  height: 300px;
+  width: 560px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+#cards .grids1 h2{
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  display: block;
+  color: #fff;
+  text-transform: capitalize;
+  width: 70%;
+  padding: 30px;
+}
+#cards .grids1 .btn{
+  font-size: 15px;
+  line-height: 40px;
+  font-weight: 500;
+  background-color: transparent;
+  text-transform: capitalize;
+  border: 1px solid white;
+  color: white;
+  border-radius: 10px;
+  margin: 30px;
+}
+
+#cards .grids1 .btn:hover{
+  background-color:red;
+}
+
+#cards .grids2{
+  background-image: url("../images/card2.jpg");
+  background-color: black;
+  background-size: cover;
+  height: 300px;
+  width: 560px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+#cards .grids2 h2{
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  display: block;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 30px;
+}
+#cards .grids2 .btn{
+  font-size: 15px;
+  line-height: 40px;
+  font-weight: 500;
+  background-color: transparent;
+  text-transform: capitalize;
+  border: 1px solid white;
+  color: white;
+  border-radius: 10px;
+  margin: 30px;
+}
+
+#cards .grids2 .btn:hover{
+  background-color:red;
+}
+
+h6{
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 28px;
+  position: relative;
+  opacity: 0.9;
+}
+h3{
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.grids-1{
+  padding: 40px 40px;
+  background: #8080800a;
+  border-radius: 10px;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  grid-gap: 20px;
+}
+.grids-1 .icon{
+  font-size: 30px;
+  color: red;
+}
+h4 a{
+  color: black;
+}
+
+#footer {
+  background-color: #1a1e32;
+}
+#footer a {
+  color: white;
+}
+#footer .logo {
+  font-size: 36px;
+}
+#footer ul li {
+  padding: 5px 0px;
+}
+#footer ul li a:hover {
+  color: red;
+}
+#footer .logo span {
+  color:red;
+  transform: rotateY(180deg);
+  padding-bottom: 20px;
+}
+hr {
+  border: 1px solid white !important;
+}
+#footer .terms:hover {
+  color: red;
+}
+
+@media (max-width: 576px) {
+  .carousel-caption {
+    top: 0;
+    padding-top: 18px;
+  }
+  .carousel-inner img{
+    height: 600px;
+    width: 100%;
+  }
+  .homepage .carousel .carousel-inner h5 {
+    font-size: 66px;
+    line-height: 76px;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 0;
+    text-shadow: rgb(0 0 0) 0px 0px 0px;
+    text-transform: capitalize;
+  }
+  
+  #cards .grids1{
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    padding: 20px;
+  }
+  #cards .grids1 h2 {
+    font-size: 25px;
+    padding: 0px;
+    margin-bottom: 30px;
+  }
+  #cards .grids1 .btn {
+    margin: 0px;
+  }
+  #cards .grids2{
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #cards .grids2 h2 {
+    font-size: 25px;
+    padding: 0px;
+    margin-bottom: 30px;
+  }
+  #cards .grids2 .btn {
+    margin: 0px;
+  }
+}
